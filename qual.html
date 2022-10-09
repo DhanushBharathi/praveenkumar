@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    html, body {
+        width: 100%;
+        height:100%;
+      }
+      
+      body {
+          background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, yellow);
+          background-size: 400% 400%;
+          animation: gradient 15s ease infinite;
+      }
+      
+      @keyframes gradient {
+          0% {
+              background-position: 0% 50%;
+          }
+          50% {
+              background-position: 100% 50%;
+          }
+          100% {
+              background-position: 0% 50%;
+          }
+      }   
+      .pk{
+        text-align: center;
+        width: 100%;
+        border-radius: 10%;
+        font-family:  RooneySans-Regular, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+        font-size: 125%;
+    }
+    .kp{
+        text-align: center;
+        width: 100%;
+        border: 30% solid red;
+        border-radius: 20%;
+        font-family:  RooneySans-Regular, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+        font-size: 125%;
+    }
+    .pk:hover{
+        width: 100%;
+         transition-delay: 6s;
+         background-image: url('images/avrmv.jpg');
+         background-position: 50%;
+         background-repeat:space;
+         background-attachment: fixed;
+         font-weight: bolder;
+         transition-property: background-image;
+         transition: ease-in;
+         transition-duration: 5s;
+        
+    }
+    .kp:hover{
+         transition-delay: 6s;
+         background-image: url('images/ein.jpg');
+         background-position: -50%;
+         background-repeat:calc(-50px);
+         background-attachment:scroll;
+         font-weight: bolder;
+         transition-property: background-image;
+         transition: ease-in;
+         transition-duration: 5s;
+        
+    }
+      h1{
+        text-align: center;
+        text-decoration-line: underline;
+        font-family:  RooneySans-Regular, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+        font-size: 350%;
+        animation: fadeIn 5s;
+      }
+      @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+</style>
+<title>Qualification</title>
+    </head>
+<body>
+
+    <h1>Education</h1>
+    <div class="pk">
+    <ul>
+        <li>A.v.rm.v Matriculation Higher secondary school <br>
+            SSC <br>
+            85 %</li>
+            <br>
+            <br>
+        <li>A.v.rm.v Matriculation Higher secondary school <br>
+              HSC <br>
+            69.83%</li>
+            <br>
+            <br>
+       
+    </ul>
+</div>
+<div class="kp">
+
+    <ul>
+            <br>
+            <br>
+         <li> Einstein College of engineering <br>
+            BE in Electronics and Communication Engineering <br>
+            82.60% (Till 5th Semester}</li>
+            <br>
+            <br>
+             <br>
+            <br>
+             <br>
+            <br> 
+        
+    </ul>
+
+
+</div>
+</body>
+</html>
